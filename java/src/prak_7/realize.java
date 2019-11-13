@@ -23,7 +23,7 @@ public class realize {
         }
         while(!((first.size()==10)||(second.size()==10))&&(shet!=105)){
             shet++;
-            System.out.println(first.getFirst()+" "+second.getFirst()+" Size first "+first.size()+" size second "+second.size());
+            System.out.println(first.getFirst()+" "+second.getFirst()+" Size first "+first.size()+" size second "+second.size()+"    ход "+shet);
             if((first.getFirst()>second.getFirst())||(first.getFirst()==9&&second.getFirst()==0)){
                 first.addLast(second.getFirst());
                 first.addLast(first.getFirst());
